@@ -53,4 +53,6 @@ app.post("/", urlencodedParser, async (req, res) => {
     res.sendFile(__dirname + "/certificate.pdf");
 });
 
-app.listen(3000);
+const port = 3000;
+
+app.listen(port, () => console.log(`Serer listening on port ${port}!`));
