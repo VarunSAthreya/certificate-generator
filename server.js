@@ -35,7 +35,10 @@ app.post("/", urlencodedParser, async (req, res) => {
 
     const html = template(data);
 
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+        headless: true,
+        args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
     const page = await browser.newPage();
     // We set the page content as the generated html by handlebars
     await page.setContent(html);
