@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Udemy Certificate Generator</title>
+    <meta name="description" content="Created by Varun S Athreya" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Udemy Certificate Generator</h1>
+        <form action="/" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name"
+                    name="name">
+            </div>
+            <div class="form-group">
+                <label for="courseName">Course Name</label>
+                <input type="text" class="form-control" id="courseName" aria-describedby="emailHelp"
+                    placeholder="Enter course name" name="course_name">
+            </div>
+            <div class="form-group">
+                <label for="instructorName">Instructor Name</label>
+                <input type="text" class="form-control" id="instructorName" aria-describedby="emailHelp"
+                    placeholder="Enter Instructor name" name="instructor_name">
+            </div>
+            <div class="form-group">
+                <label for="hours">Hours</label>
+                <input type="number" class="form-control" id="hours" aria-describedby="emailHelp"
+                    placeholder="Enter Total Curse hours" name="hours">
+            </div>
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" class="form-control" id="date" aria-describedby="emailHelp" placeholder="Enter Date"
+                    name="date">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+</body>
+
+</html>
