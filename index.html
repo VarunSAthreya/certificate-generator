@@ -6,12 +6,13 @@
     <meta name="description" content="Created by Varun S Athreya" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="container">
-        <h1>Udemy Certificate Generator</h1>
+        <h1 class="mx-auto" style="width: 100vh;margin-top: 15px;">Udemy Certificate Generator</h1>
         <form action="/" method="POST">
             <div class="form-group">
                 <label for="name">Name</label>
@@ -31,7 +32,7 @@
             <div class="form-group">
                 <label for="hours">Hours</label>
                 <input type="number" class="form-control" id="hours" aria-describedby="emailHelp"
-                    placeholder="Enter Total Curse hours" name="hours">
+                    placeholder="Enter Total Course hours" name="hours">
             </div>
             <div class="form-group">
                 <label for="date">Date</label>
@@ -41,6 +42,14 @@
 
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+    </div>
+    <footer class="footer fixed-bottom mx-auto" style="width: 500px;margin-bottom: 15px;">
+        <div class="container text-muted">
+            Made with ❤️ using <a class="font-weight-bold text-success" href="https://nodejs.org" target="_blank"
+                rel="noopener noreferrer">NodeJS</a> by <a class="font-weight-bold text-monospace text-dark"
+                href="https://github.com/VarunSAthreya" target="_blank" rel="noopener noreferrer">VarunSAthreya</a>
+        </div>
+    </footer>
 </body>
 
 </html>
