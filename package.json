@@ -11,7 +11,7 @@
     "author": "Varun S Athreya",
     "license": "MIT",
     "dependencies": {
-        "body-parser": "^1.19.1",
+        "body-parser": "^1.20.3",
         "date-fns": "^2.28.0",
         "express": "^4.17.3",
         "handlebars": "^4.7.7",
